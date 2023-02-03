@@ -1,0 +1,66 @@
+.container {
+  margin: 0px;
+  padding: 25px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+.divCards {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.card {
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.buttonX {
+  border: 2px solid white;
+  background-color: red;
+  color: white;
+  padding: 5px 7px;
+  border-radius: 9px;
+  position: relative;
+  left: 60%;
+}
+.buttonX:hover {
+  background-color: black;
+}
+.name {
+  display: inline-block;
+  background-color: rgba(28, 27, 27, 0.779);
+  color: white;
+  position: relative;
+  top: 300px;
+  left: -57px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.img {
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.species {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  left: -20%;
+  top: 10px;
+}
+.genero {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 20%;
+  top: -8px;
+}
